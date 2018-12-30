@@ -1,0 +1,39 @@
+
+.boardClass{
+  border: 3px solid black;
+}
+
+.boxClass{
+  border: 2px solid black;
+  height: 100px;
+  width: 100px;
+  margin: 0px;
+  text-align: center;
+  font-size: 1.2em;
+  background-color: green;
+  /* padding-top: 10px; */
+  /* vertical-align: middle; */
+}
+
+.headerClass{
+  margin: 30px;
+  /* border: 3px solid black; */
+  text-align: center;
+}
+
+.boardClass{
+  margin: 10px;
+  border: 3px solid black;
+}
+
+.GameInfoClass{
+  margin: 10px;
+  /* border: 3px solid black; */
+  text-align: center;
+}
+
+.squareClass{
+  margin: auto;
+  /* border: 3px solid black; */
+  justify-content: center;
+}
