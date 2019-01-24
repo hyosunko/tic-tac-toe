@@ -1,13 +1,10 @@
 import React, { Component } from 'react';
 import './App.css';
-import Board from './Board.js'
-import GameInfo from './GameInfo.js'
-import Header from './Header.js'
+import Board from './Board'
+import GameInfo from './GameInfo'
+import Header from './Header'
 
 class App extends Component {
-  // BOARD COMPONENT:  initial data - start state of board.  (meaning begining status is zero)
-  // need board size and empty board array
-  // inital data = number player (two players), generate collumn information
   constructor(props){
     super(props)
       this.state = {
@@ -145,6 +142,7 @@ clickFun = e => {
     let clickedIdent = e.target.id
     let {boardSize, boardArr, boardColumn, winComboArr, clickCount, clickCountLimit, winStatus, playerInfoArr, player1, player2} = this.state
     let matchCount = 0;
+    console.log("clickedIdent", clickedIdent)
     // console.log("winComboArr", winComboArr);
     // console.log("clickCount", clickCount);
     // console.log("player1 emoji": player1);
